@@ -89,22 +89,22 @@ async function init() {
     fs.writeJsonSync(contentPackageJsonPath, pkg, { spaces: 2 });
   }
 
-  // Run npm install
+  // Run pnpm install
   console.log(`\nInstalling dependencies in ${chalk.cyan(resolvedProjectPath)}...\n`);
   try {
-    execSync('npm install --legacy-peer-deps', { stdio: 'inherit', cwd: resolvedProjectPath });
+    execSync('pnpm install', { stdio: 'inherit', cwd: resolvedProjectPath });
   } catch (err) {
-    console.log(chalk.red('Failed to install dependencies. You can try running `npm install` manually.'));
+    console.log(chalk.red('Failed to install dependencies. You can try running `pnpm install` manually.'));
   }
 
   console.log(`\n${chalk.green('Success!')} Created ${chalk.cyan(projectName)} at ${chalk.cyan(resolvedProjectPath)}`);
   console.log('\nInside that directory, you can run several commands:\n');
-  console.log(`  ${chalk.cyan('npm run dev')}`);
+  console.log(`  ${chalk.cyan('pnpm run dev')}`);
   console.log('    Starts the development server.\n');
   
   console.log('We suggest that you begin by typing:\n');
   console.log(`  ${chalk.cyan('cd')} ${projectPath}`);
-  console.log(`  ${chalk.cyan('npm run dev')}`);
+  console.log(`  ${chalk.cyan('pnpm run dev')}`);
   console.log('\nHappy hacking!');
 }
 
