@@ -63,15 +63,15 @@ export default function Page() {
         <ul className="mb-4 space-y-2">
           <li className="text-gray-200">
             Here is the settings page, adjust your plan and make other changes
-            to your CBud account.
+            to your MoL account.
           </li>
           <li className="text-gray-200">
-            To view the full CBud documentation, or view Plans view the links
+            To view the full MoL documentation, or view Plans view the links
             below.
           </li>
         </ul>
         <div className="flex gap-4">
-          <ExternalLink href="https://info.cbud.app/posts/how-to-setup-cbud">
+          <ExternalLink href="https://info.mol.app/posts/how-to-setup-mol">
             <span className="text-blue-400 hover:text-blue-300">Full Docs</span>
           </ExternalLink>
           <InternalLink href="settings/plans">

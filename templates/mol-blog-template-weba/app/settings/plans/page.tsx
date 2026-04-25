@@ -8,7 +8,7 @@ export default async function Page() {
       <div className="mb-12">
         <h1 className="text-2xl font-bold mb-4 text-blue-600">Plans & Features</h1>
         <p className="text-gray-200">
-          Contractor Bud offers four tiers of service to meet different organizational needs. 
+          MoL offers four tiers of service to meet different organizational needs. 
           Each tier builds upon the previous one, adding more advanced features and capabilities.
         </p>
       </div>

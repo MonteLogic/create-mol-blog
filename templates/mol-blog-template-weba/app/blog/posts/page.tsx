@@ -162,7 +162,7 @@ export default async function BlogPage() {
   if (visiblePosts.length === 0) {
     return (
       <div className="mx-auto max-w-4xl p-6">
-        <h1 className="mb-8 text-3xl font-bold text-white">CBud Blog</h1>
+        <h1 className="mb-8 text-3xl font-bold text-white">MoL Blog</h1>
         <div className="rounded-lg border border-gray-700 bg-gray-800 p-6">
           <p className="text-white">
             {userId
@@ -176,7 +176,7 @@ export default async function BlogPage() {
 
   return (
     <div className="mx-auto max-w-4xl p-6">
-      <h1 className="mb-8 text-3xl font-bold text-white">CBud Blog</h1>
+      <h1 className="mb-8 text-3xl font-bold text-white">MoL Blog</h1>
 
       <div className="space-y-6">
         {visiblePosts.map((post: BlogPost) => (

@@ -48,7 +48,7 @@ export default function Page() {
           Plans & Features
         </h1>
         <p className="text-gray-200">
-          Contractor Bud offers four tiers of service to meet different
+          MoL offers four tiers of service to meet different
           organizational needs. Each tier builds upon the previous one, adding
           more advanced features and capabilities.
         </p>

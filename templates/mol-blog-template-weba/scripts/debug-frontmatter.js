@@ -3,7 +3,7 @@ const path = require('path');
 const matter = require('gray-matter');
 
 const targetFilePath =
-  'content/posts/categorized/articles/categorized/next.js/current-style-of-generating-pdfs-for-cbud/index.md';
+  'content/posts/categorized/articles/categorized/next.js/current-style-of-generating-pdfs-for-mol/index.md';
 
 function debugPost() {
   const fullPath = path.join(process.cwd(), targetFilePath);

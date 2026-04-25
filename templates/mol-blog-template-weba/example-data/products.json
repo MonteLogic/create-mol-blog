@@ -5,7 +5,7 @@
       "env": "test",
       "name": "Base Plan",
       "interval": "month",
-      "description": "Base subscription plan for CBud"
+      "description": "Base subscription plan for MoL"
     }
   },
   "development": {
@@ -14,7 +14,7 @@
       "env": "prod",
       "name": "Base Plan (Test)",
       "interval": "month",
-      "description": "Test subscription plan for CBud"
+      "description": "Test subscription plan for MoL"
     }
   }
 }

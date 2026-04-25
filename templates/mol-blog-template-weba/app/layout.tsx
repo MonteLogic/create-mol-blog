@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: titles.title,
     description:
-      'Contractor Bud is an online system for managing contractors concerns. These concerns include scheduling, timecards, route management and time management. This easy to use app will make truck drivers and route managers working lives much easier.',
+      'MoL is an online system for managing contractors concerns. These concerns include scheduling, timecards, route management and time management. This easy to use app will make truck drivers and route managers working lives much easier.',
     images: ['/api/og?title=Next.js App Router'],
   },
   twitter: {

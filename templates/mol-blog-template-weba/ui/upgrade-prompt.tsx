@@ -114,7 +114,7 @@ const UpgradePrompt: React.FC<UpgradePromptProps> = ({ subscriptionData }) => {
         </div>
 
         <h2 id="modal-title" className="text-xl font-semibold text-white">
-          Upgrade Contractor Bud
+          Upgrade MoL
         </h2>
 
         <p className="text-center text-gray-400">
